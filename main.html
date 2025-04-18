@@ -1,0 +1,458 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <a href="/" class="header__logo">
+            <img src="img/svgicons/logo-black.svg" alt="logo">
+        </a>
+        <button class="header__burger">
+            <span></span>
+        </button>
+        <nav class="header__nav">
+            <p>ДАЛЛОС</p>
+            <a href="#" data-scroll="about">О КОМПАНИИ</a>
+            <a href="#" data-scroll="products">ПРОДУЦИЯ</a>
+            <a href="#" data-scroll="price">ПРАЙС-ЛИСТ</a>
+            <a href="#" data-scroll="delivery">ДОСТАВКА</a>
+            <a href="#" data-scroll="order">ЗАКАЗАТЬ СЕЙЧАС</a>
+            <a href="#" data-scroll="provider">ПОСТАВЩИКАМ</a>
+            <a href="#" data-scroll="team">НАША КОМАНДА</a>
+            <a href="#" data-scroll="contacts">КОНТАКТЫ</a>
+        </nav>
+    </div>
+</header>
+
+            <main class="content index">
+                <section class="intro fish-container">
+                    <img src="./img/intro/content.png" alt="intro" class="bg">
+                    <img class="fish right" src="img/svgicons/intro/right.svg" alt="">
+                    <img class="fish left" src="img/svgicons/intro/left.svg" alt="">
+                    <img class="fish bottom" src="img/svgicons/intro/bottom.svg" alt="">
+                    <div class="container">
+                        <h1>ДАЛЛОС</h1>
+                        <p>
+                            ЭКСПЕРТ ОПТОВЫХ ПОСТАВОК РЫБЫ
+                            ИКРЫ И МОРЕПРОДУКТОВ В РОССИИ
+                        </p>
+                        <a href="#" class="btn">
+                            ПОЛУЧИТЬ ПРАЙС
+                        </a>
+                    </div>
+                </section>
+                <section class="products">
+                    <div class="container">
+                        <h2>
+                            <span>ХИТЫ И АКЦИИ</span>
+                            ДАЛЛОС
+                        </h2>
+                        <div class="swiper products-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide item">
+                                    <img src="img/item/1.png" alt="">
+                                    <h3>
+                                        ОСЬМИНОГ
+                                        <br>
+                                        20-40шт/кг
+                                    </h3>
+                                    <p class="item-town">
+                                        МАГАДАНРЫБА
+                                    </p>
+                                    <p class="item-info">в коробах, от 5кг</p>
+                                    <a href="#" class="btn btn__bordered">ПОДРОБНЕЕ</a>
+                                </div>
+                                <div class="swiper-slide item">
+                                    <img src="img/item/2.png" alt="">
+                                    <h3>
+                                        КРЕВЕТКА 70/90
+                                        <br>
+                                        СЕВЕРНАЯ
+                                    </h3>
+                                    <p class="item-town">ГРЕНЛАНДИЯ</p>
+                                    <p class="item-info">в коробах, от 5кг</p>
+                                    <a href="#" class="btn btn__bordered">ПОДРОБНЕЕ</a>
+                                </div>
+                                <div class="swiper-slide item">
+                                    <img src="img/item/3.png" alt="">
+                                    <h3>
+                                        КРАБ
+                                        <br>
+                                        КАМЧАТСКИЙ
+                                    </h3>
+                                    <p class="item-town">ХАБАРОВСК</p>
+                                    <p class="item-info">в коробах, от 10кг</p>
+                                    <a href="#" class="btn btn__bordered">ПОДРОБНЕЕ</a>
+                                </div>
+                                <div class="swiper-slide item">
+                                    <img src="img/item/3.png" alt="">
+                                    <h3>
+                                        КРАБ
+                                        <br>
+                                        КАМЧАТСКИЙ
+                                    </h3>
+                                    <p class="item-town">ХАБАРОВСК</p>
+                                    <p class="item-info">в коробах, от 10кг</p>
+                                    <a href="#" class="btn btn__bordered">ПОДРОБНЕЕ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev products__prev"></div>
+                        <div class="swiper-button-next products__next"></div>
+                    </div>
+                </section>
+                <section class="faq fish-container">
+                    <img class="fish top" src="img/svgicons/faq/top.svg" alt="">
+                    <img class="fish bottom" src="img/svgicons/faq/bottom.svg" alt="">
+                    <div class="container">
+                        <h2>
+                            <span>КАК МЫ РАБОТАЕМ</span>
+                        </h2>
+                        <main class="faq__row">
+                            <div class="faq__item">
+                                <p>ПРЯМЫЕ ПОСТАВКИ</p>
+                                <p>Вы получаете лучшие цены и качество продукции из первых рук, потому что мы напрямую работаем с добывающими компаниями партнерами</p>
+                            </div>
+                            <div class="faq__item">
+                                <p>СВЕЖЕСТЬ</p>
+                                <p>К вам всегда приходит свежая и ликвидная продукция, с минимальным временем от даты вылова до реализации</p>
+                            </div>
+                            <div class="faq__item">
+                                <p>ПО ВСЕЙ РОССИИ</p>
+                                <p>Продукция приезжает к вам во все регионы России с использованием авторефрижераторов</p>
+                            </div>
+                            <div class="faq__item">
+                                <p>ОТКРЫТАЯ ЦЕНА</p>
+                                <p>Мы открыто делимся нашими актуальными прайс-листами, вы можете ознакомиться с ними в любое время</p>
+                            </div>
+                            <div class="faq__item">
+                                <p>
+                                    ПОРОГ ЗАКАЗА - 
+                                    ОДНА КОРОБКА
+                                </p>
+                                <p>Приезжая на наш склад в Москве или Хабаровске, вы можете быть уверены, что каждая позиция доступна к отгрузке в количестве от одной коробки</p>
+                            </div>
+                            <div class="faq__item">
+                                <p>ПРОЗРАЧНОСТЬ</p>
+                                <p>Прозрачность и надежность: вы получаете полную информацию о вашем заказе на каждом этапе сотрудничества, включая фото и видео документацию.</p>
+                            </div>
+                        </main>
+                        <a href="#" class="btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+                    </div>
+                </section>
+                <section class="team">
+                    <div class="container">
+                        <h2>
+                            КОМАНДА
+                            <span>ДАЛЛОС</span>
+                        </h2>
+                        <div class="swiper team-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide team-item">
+                                    <img src="img/team/1.png" alt="">
+                                    <h3>
+                                        Иван
+                                        <br>
+                                        Попов
+                                    </h3>
+                                    <p class="team-item-post">
+                                        Руководитель компании
+                                    </p>
+                                    <p class="team-item-info">Обеспечивает стратегическое управление и отвечает за общее развитие бизнеса.</p>
+                                </div>
+                                <div class="swiper-slide team-item">
+                                    <img src="img/team/1.png" alt="">
+                                    <h3>
+                                        Иван
+                                        <br>
+                                        Попов
+                                    </h3>
+                                    <p class="team-item-post">
+                                        Руководитель отдела продаж ХАБАРОВСК
+                                    </p>
+                                    <p class="team-item-info">Обеспечивает стратегическое управление и отвечает за общее развитие бизнеса.</p>
+                                </div>
+                                <div class="swiper-slide team-item">
+                                    <img src="img/team/1.png" alt="">
+                                    <h3>
+                                        Иван
+                                        <br>
+                                        Попов
+                                    </h3>
+                                    <p class="team-item-post">
+                                        Руководитель компании
+                                    </p>
+                                    <p class="team-item-info">Обеспечивает стратегическое управление и отвечает за общее развитие бизнеса.</p>
+                                </div>
+                                <div class="swiper-slide team-item">
+                                    <img src="img/team/1.png" alt="">
+                                    <h3>
+                                        Иван
+                                        <br>
+                                        Попов
+                                    </h3>
+                                    <p class="team-item-post">
+                                        Руководитель компании
+                                    </p>
+                                    <p class="team-item-info">Обеспечивает стратегическое управление и отвечает за общее развитие бизнеса.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev team__prev"></div>
+                        <div class="swiper-button-next team__next"></div>
+                        <footer class="btns">
+                            <a href="#" class="btn btn__bordered">ПОДРОБНЕЕ о НАС</a>
+                            <a href="#" class="btn">СТАТЬ ЧАСТЬЮ КОМАНДЫ</a>
+                        </footer>
+                    </div>
+                </section>
+                <section class="our-products fish-container">
+                    <img class="fish top" src="img/svgicons/our-products/top.svg" alt="">
+                    <img class="fish bottom" src="img/svgicons/our-products/bottom.svg" alt="">
+                    <div class="container">
+                        <main class="our-products__row">
+                            <div class="our-products__info">
+                                <h2>
+                                    <span>НАША ПРОДУКЦИЯ</span>
+                                </h2>
+                                <p>
+                                    Мы предлагаем широкий ассортимент морепродуктов, включая деликатесы Камчатки и Сахалина,такие как Камчатский краб, Краб стригун, Приморские и Сахалинские гребешки, а также конкурентные предложения по таким позициям, как дальневосточная Красная икра и рыба.
+                                    <br>
+                                    <br>
+                                    Разнообразие продукции дополняют также северная дальневосточная креветка, осьминоги, мидии, устрицы.
+                                    <br>
+                                    <br>
+                                    Наши авторские полуфабрикаты из первоклассного сырья мы предоставляем в кратчайшие сроки - от изготовления с шоковой заморозкой до вашей полки пройдут всего считанные дни, то есть вы получите товар с полным сроком годности.
+                                    <br>
+                                    <br>
+                                    Все эти продукты доступны на наших складах в Москве и Хабаровске, что обеспечивает удобную и эффективную доставку по всей России.
+                                </p>
+                                <a href="#" class="btn">АССОРТИМЕНТ</a>
+                            </div>
+                            <img src="img/products/content.png" alt="products">
+                        </main>
+                    </div>
+                </section>
+                <section class="reviews">
+                    <div class="container">
+                        <h2>
+                            ОТЗЫВЫ КЛИЕНТОВ
+                            <span>ДАЛЛОС</span>
+                        </h2>
+                        <div class="swiper reviews-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <!-- YYYY-MM-DD HH:MM -->
+                                    <time datetime="2023-09-03 17:00">09.03.2023 в 17:00</time>
+                                    <h3>
+                                        Олег Петров
+                                        <br>
+                                        ООО “Транзит Рыба”
+                                    </h3>
+                                    <p>
+                                        <b>Самая надежная поставка</b>
+                                        Благодарим коллектив ДАЛЛОС с помощью в поставке необхоимых нам позиций в 35 регионов РФ. Каждый день мы были в курсе где находятся наши грузы и какой статус по ним.
+                                    </p>
+                                    <a href="#">Читать полностью</a>
+                                </div>
+                                <div class="swiper-slide brown">
+                                    <!-- YYYY-MM-DD HH:MM -->
+                                    <time datetime="2023-09-03 17:00">09.03.2023 в 17:00</time>
+                                    <h3>
+                                        Дмитрий Дугинин
+                                        <br>
+                                        ЗАО “Рыболов”
+                                    </h3>
+                                    <p>
+                                        <b>Партнерство с ДАЛЛОС</b>
+                                        помогло нам реализовать более трети продукции за несколько лет, команда всегда исполняет взятые на себя обязательства и оперативно решает все вопросы.
+                                    </p>
+                                    <a href="#">Читать полностью</a>
+                                </div>
+                                <div class="swiper-slide grey">
+                                    <!-- YYYY-MM-DD HH:MM -->
+                                    <time datetime="2023-09-03 17:00">09.03.2023 в 17:00</time>
+                                    <h3>
+                                        Анна Иванова
+                                        <br>
+                                        ИП ЗАРУБИНА А.И.
+                                    </h3>
+                                    <p>
+                                        <b>Отличная икра</b>
+                                        Постоянно закупаю икру для своей сети ресторанов у ДАЛЛОС. Всегда качественно и в срок, клиенты довольны, запустили новое меню и рекомендации шефа с икрой.
+                                    </p>
+                                    <a href="#">Читать полностью</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- YYYY-MM-DD HH:MM -->
+                                    <time datetime="2023-09-03 17:00">09.03.2023 в 17:00</time>
+                                    <h3>
+                                        Олег Петров
+                                        <br>
+                                        ООО “Транзит Рыба”
+                                    </h3>
+                                    <p>
+                                        <b>Самая надежная поставка</b>
+                                        Благодарим коллектив ДАЛЛОС с помощью в поставке необхоимых нам позиций в 35 регионов РФ. Каждый день мы были в курсе где находятся наши грузы и какой статус по ним.
+                                    </p>
+                                    <a href="#">Читать полностью</a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination reviews-pagination"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="partners">
+                    <div class="container">
+                        <h2>
+                            СТАТЬ ПАРТНЕРОМ
+                            <span>ДАЛЛОС</span>
+                        </h2>
+                        <main class="partners__row">
+                            <p>
+                                Мы всегда открыты к новым партнёрствам!
+                                <br>
+                                <br>
+                                Если вы занимаетесь производством или поставкой натуральных морепродуктов, икры, моллюсков и других продуктов из моря, и стремитесь к качеству и экологичности, мы будем рады обсудить сотрудничество.
+                                <br>
+                                <br>
+                                Пожалуйста, заполните форму, чтобы связаться с нами.
+                                <br>
+                                <br>
+                                Мы рассмотрим ваши предложения и свяжемся с вами для дальнейшего обсуждения условий и возможностей совместной работы.
+                            </p>
+                            <div class="partners__separator"></div>
+                            <p>
+                                Мы успешно сотрудничаем с компаниями
+                                <br>
+                                <br>
+                                ООО “ДЕЛЬФИН”
+                                <br>
+                                ООО “КРАСНАЯ ИКРА”
+                                <br>
+                                ЗАО “КРАСНАЯ РЫБА”
+                                <br>
+                                ОАО “РЫБОЛОВНАЯ КОМПАНИЯ”
+                                <br>
+                                ООО “ДЕЛЬФИН”
+                                <br>
+                                ООО “КРАСНАЯ ИКРА”
+                                <br>
+                                ЗАО “КРАСНАЯ РЫБА”
+                                <br>
+                                ОАО “РЫБОЛОВНАЯ КОМПАНИЯ”
+                                <br>
+                                и многими другими
+                            </p>
+                        </main>
+                        <a href="#" class="btn">СТАТЬ ПАРТНЕРОМ</a>
+                    </div>
+                </section>
+                <section class="map fish-container">
+                    <img class="fish top" src="img/svgicons/map/top.svg" alt="">
+                    <img class="fish bottom" src="img/svgicons/map/bottom.svg" alt="">
+                    <div class="container">
+                        <h2>
+                            СКЛАДЫ
+                            <span>ДАЛЛОС</span>
+                        </h2>
+                        <main class="map__row">
+                            <div class="map__item">
+                                <img src="img/map/content.png" alt="content">
+                                <a href="#" class="btn btn__bordered">МОСКВА</a>
+                            </div>
+                            <div class="map__item">
+                                <img src="img/map/content.png" alt="content">
+                                <a href="#" class="btn btn__bordered">ХАБАРОВСК</a>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <header class="footer-top">
+            <h2>КОНТАКТЫ</h2>
+            <nav class="footer-top__nav">
+                <a href="tel:8 804 700 40 02">8 804 700 40 02</a>
+                <p>
+                    Офис МОСКВА
+                    <a href="https://api.whatsapp.com/send/?phone=%2B79688618550&text&type=phone_number&app_absent=0">Whatsapp</a>
+                    <a href="https://yandex.ru/maps/?ll=37.747605%2C55.592659&mode=whatshere&utm_source=share&whatshere%5Bpoint%5D=37.747193%2C55.592168&whatshere%5Bzoom%5D=17&z=18">Маршрут до склада</a>
+                </p>
+            </nav>
+            <nav class="footer-top__nav">
+                <a href="mailto:dallos@dallos.ru">dallos@dallos.ru</a>
+                <p>
+                    Офис ХАБАРОВСК
+                    <a href="https://api.whatsapp.com/send/?phone=%2B79098502500&text&type=phone_number&app_absent=0">Whatsapp</a>
+                    <a href="https://yandex.ru/maps/76/khabarovsk/house/kamyshovy_pereulok_15a/ZUoDaAZlTkMDX0Jua2J1cn5gYww=/?ll=135.157643%2C48.432374&utm_source=share&z=17">Маршрут до склада</a>
+                </p>
+            </nav>
+        </header>
+        <footer class="footer-bottom">
+            <a href="#" class="footer__logo">
+                <img src="img/svgicons/logo.svg" alt="">
+            </a>
+            <nav class="footer-bottom__nav">
+                <div>
+                    <p>О КОМПАНИИ</p>
+                    <a href="#">ПРАЙС-ЛИСТ</a>
+                    <a href="#">ДОСТАВКА</a>
+                    <a href="#">ПОСТАВЩИКАМ</a>
+                    <a href="#">НОВОСТИ</a>
+                    <a href="#">КОНТАКТЫ</a>
+                </div>
+                <div>
+                    <p>ПРОДУКЦИЯ</p>
+                    <a href="#">ЗАКАЗАТЬ СЕЙЧАС</a>
+                    <a href="#">ИКРА</a>
+                    <a href="#">РЫБА</a>
+                    <a href="#">КРАБ</a>
+                    <a href="#">КРЕВЕТКА</a>
+                    <a href="#">МОЛЛЮСКИ</a>
+                    <a href="#">ПОЛУФАБРИКАТЫ</a>
+                </div>
+                <div>
+                    <p>ОФИСЫ</p>
+                    <a href="#">МОСКВА</a>
+                    <a href="#">ХАБАРОВСК</a>
+                </div>
+            </nav>
+            <nav class="footer__socials">
+                <a href="#">
+                    <img src="img/svgicons/tg.svg" alt="tg">
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/inst.svg" alt="inst">
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/yt.svg" alt="yt">
+                </a>
+            </nav>
+        </footer>
+        <p class="footer__copyright">
+            © 2025, ООО «ДАЛЛОС». ВСЕ ПРАВА ЗАЩИЩЕНЫ
+            <a href="#">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+        </p>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>
