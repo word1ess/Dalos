@@ -618,6 +618,10 @@ h2 span {
   color: #716d65;
   line-height: 1.2;
   margin-bottom: 8px;
+  transition: all 300ms ease;
+}
+.header__nav a:hover {
+  text-decoration: underline;
 }
 .header__nav.burger-active {
   transform: translate(0px, 0px);
@@ -1270,7 +1274,7 @@ body {
     padding: 0px 20px 20px;
     border-radius: 0px 0px 20px 20px;
     border-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -1465,11 +1469,14 @@ body {
     margin-bottom: 20px;
     max-width: 200px;
   }
+  .product-gallery__info {
+    padding-bottom: 140px;
+  }
   .product-gallery__info h2 {
     font-size: 24px;
   }
   .product-gallery__info h2 + p {
-    text-align: center;
+    text-align: center !important;
     font-size: 24px;
   }
   .product-gallery__info p {
