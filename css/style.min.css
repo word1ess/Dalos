@@ -93,13 +93,6 @@ h6 {
 @font-face {
   font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
   src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -107,15 +100,8 @@ h6 {
 @font-face {
   font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
-  font-weight: 500;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
@@ -126,16 +112,37 @@ h6 {
   font-style: normal;
 }
 @font-face {
-  font-family: Montserrat;
+  font-family: PhonkSans;
   font-display: swap;
-  src: url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff");
-  font-weight: 100;
+  src: url("../fonts/PhonkSans-Bold.woff2") format("woff2"), url("../fonts/PhonkSans-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: Montserrat;
+  font-family: PhonkSans;
   font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  src: url("../fonts/PhonkSans-Black.woff2") format("woff2"), url("../fonts/PhonkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: PhonkSans;
+  font-display: swap;
+  src: url("../fonts/PhonkSans-RegularItalic.woff2") format("woff2"), url("../fonts/PhonkSans-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PhonkSans;
+  font-display: swap;
+  src: url("../fonts/PhonkSans-SemiBold.woff2") format("woff2"), url("../fonts/PhonkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: PhonkSans;
+  font-display: swap;
+  src: url("../fonts/PhonkSans-Regular.woff2") format("woff2"), url("../fonts/PhonkSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -149,6 +156,7 @@ h2 {
   font-size: 50px;
   line-height: 106%;
   color: #433f3a;
+  font-family: PhonkSans;
 }
 h2 span {
   color: #f60122;
@@ -233,11 +241,14 @@ h2 span {
   color: #433f3a;
   margin-bottom: 24px;
   text-transform: uppercase;
+  font-family: PhonkSans;
 }
 .item-town {
   font-size: 29px;
   color: #b4c4e1;
   margin-bottom: 16px;
+  font-family: PhonkSans;
+  font-weight: 900;
 }
 .item-info {
   font-weight: 400;
@@ -271,6 +282,7 @@ h2 span {
   color: #433f3a;
   margin-bottom: 24px;
   text-transform: uppercase;
+  font-family: PhonkSans;
 }
 .team-item-post {
   font-size: 28px;
@@ -278,6 +290,8 @@ h2 span {
   margin-bottom: 16px;
   flex: 1 1 auto;
   margin-bottom: 29px;
+  font-family: PhonkSans;
+  font-weight: 900;
 }
 .team-item-info {
   font-weight: 400;
@@ -333,7 +347,7 @@ h2 span {
 }
 .products-page__row {
   display: grid;
-  grid-template-columns: repeat(2, 560px);
+  grid-template-columns: repeat(2, 600px);
   gap: 155px 20px;
   justify-content: space-between;
 }
@@ -357,6 +371,7 @@ h2 span {
   font-size: 24px;
   color: #716d65;
   margin-bottom: 50px;
+  font-family: PhonkSans;
 }
 .products-page .item:has(.item-town) h3 {
   font-weight: 900;
@@ -373,6 +388,7 @@ h2 span {
   font-size: 29px;
   line-height: 106%;
   color: #433f3a;
+  font-family: Montserrat;
 }
 .products-page .item .btn {
   margin: 0 auto;
@@ -764,6 +780,8 @@ h2 span {
 .team .container .btns a {
   max-width: 100%;
   width: 100%;
+  font-size: 16px;
+  padding: 23px 18px;
 }
 
 .our-products {
@@ -834,6 +852,7 @@ h2 span {
   line-height: 106%;
   color: #433f3a;
   margin-bottom: 40px;
+  font-family: PhonkSans;
 }
 .reviews .container .swiper-slide p {
   font-weight: 400;
@@ -981,6 +1000,7 @@ h2 span {
   text-decoration-skip-ink: none;
   margin-bottom: 42px;
   line-height: 1.2;
+  font-family: PhonkSans;
 }
 .footer-top__nav p {
   font-family: PhonkSans;
