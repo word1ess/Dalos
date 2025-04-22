@@ -1301,6 +1301,10 @@ body {
   .ceo:not(:last-child) {
     margin-bottom: 0px;
   }
+  .products-page__row,
+  .products-page__row.three {
+    grid-template-columns: 1fr;
+  }
   .header.active {
     padding: 15px 0px;
   }
@@ -1309,6 +1313,9 @@ body {
   }
   .header__nav {
     padding: 170px 15px 0px;
+  }
+  .products-page .container h1 {
+    font-size: 45px;
   }
   h2 {
     font-size: 30px;
@@ -1345,7 +1352,7 @@ body {
     width: 200px;
   }
   .item {
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
   .item img {
     max-width: 200px;
