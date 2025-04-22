@@ -1298,6 +1298,9 @@ body {
   }
 }
 @media only screen and (max-width: 576px) {
+  .ceo:not(:last-child) {
+    margin-bottom: 0px;
+  }
   .header.active {
     padding: 15px 0px;
   }
