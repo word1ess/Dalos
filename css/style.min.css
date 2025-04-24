@@ -548,6 +548,10 @@ input {
   margin-bottom: 10px;
 }
 
+.block-header.center {
+  text-align: center;
+}
+
 .dialogbox {
   display: none;
   position: fixed;
@@ -620,6 +624,9 @@ input {
   width: 100%;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+.dialogbox .btn:last-child {
+  margin-bottom: 0px;
 }
 
 .header {
